@@ -1,11 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-	<meta charset="utf-8" />
-</head>
-<body ng-app="communityCareHubApp">
-    <div includehtml="/src/header.html"></div>
+<?php include 'header.php' ?>
 
     <form ng-submit="submitLogin()" ng-controller="communityCareHubController" class="col-md-4 col-md-offset-4 mid-page center-text">
         <h1>Community Care Hub</h1>
@@ -25,10 +18,4 @@
         </div>
     </form>
 
-    <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/angular.min.js"></script>
-    <script type="text/javascript" src="/js/custom.js"></script>
-    <script src="/js/includeHTML.js"></script>
-</body>
-</html>
+<?php include 'footer.php' ?>
