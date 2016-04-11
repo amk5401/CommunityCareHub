@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 
-    <form ng-submit="submitLogin()" ng-controller="communityCareHubController" class="col-md-4 col-md-offset-4 mid-page center-text">
+    <form ng-submit="submitLogin()" class="col-md-4 col-md-offset-4 mid-page center-text">
         <h1>Community Care Hub</h1>
         <div id="flash">
 

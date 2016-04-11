@@ -24,21 +24,14 @@ var app = angular.module('communityCareHubApp', [])
             $("#flash").html("").removeClass();
         };
 
-    });
+        $scope.patientList = [
+            {
+                name: "Carlu Hipkins",
+                gender: "female",
+                age: 86,
+                room: 116,
+                image: 'carlu.jpg'
+            }
+        ]
 
-$(document).on('ready', function() {
-    $("#addCalendarEvent-modal").on('hide.bs.modal', function () {
-        console.log('add calendar event modal is closing.');
     });
-
-    $("#staff-calendar").fullCalendar({
-        dayClick: function() {
-            console.log("user clicked a day");
-        }
-    });
-
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        $('#staff-calendar').fullCalendar('render');
-    });
-    $('#myTab a:first').tab('show');
-});

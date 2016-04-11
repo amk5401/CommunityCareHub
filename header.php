@@ -6,10 +6,10 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css" rel="stylesheet" />
-    <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.print.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.print.css" rel="stylesheet" media="print"/>
 
 </head>
-<body ng-app="communityCareHubApp">
+<body ng-app="communityCareHubApp" ng-controller="communityCareHubController">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
