@@ -25,3 +25,9 @@ var app = angular.module('communityCareHubApp', [])
         };
 
     });
+
+$(document).on('ready', function() {
+    $("#addCalendarEvent-modal").on('hide.bs.modal', function () {
+        console.log('The modal is about to be hidden.');
+    });
+});
