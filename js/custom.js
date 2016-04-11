@@ -30,7 +30,7 @@ var app = angular.module('communityCareHubApp', [])
                 gender: "female",
                 age: 86,
                 room: 116,
-                image: 'carlu.jpg'
+                image: '/assets/images/carlu.jpg'
             }
         ]
 
