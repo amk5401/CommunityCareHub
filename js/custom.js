@@ -13,7 +13,7 @@ var app = angular.module('communityCareHubApp', [])
                     $scope.flash("Incorrect username or password", "danger");
                     $("#login-button").prop("disabled", false);
                 }
-            }, 1000);
+            }, 500);
         };
 
         $scope.flash = function(message, severity) {
