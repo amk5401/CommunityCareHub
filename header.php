@@ -5,6 +5,8 @@
 	<meta charset="utf-8" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.print.css" rel="stylesheet" />
 
 </head>
 <body ng-app="communityCareHubApp">

@@ -28,6 +28,17 @@ var app = angular.module('communityCareHubApp', [])
 
 $(document).on('ready', function() {
     $("#addCalendarEvent-modal").on('hide.bs.modal', function () {
-        console.log('The modal is about to be hidden.');
+        console.log('add calendar event modal is closing.');
     });
+
+    $("#staff-calendar").fullCalendar({
+        dayClick: function() {
+            console.log("user clicked a day");
+        }
+    });
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        $('#staff-calendar').fullCalendar('render');
+    });
+    $('#myTab a:first').tab('show');
 });
