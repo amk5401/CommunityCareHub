@@ -7,6 +7,23 @@
     text-align: center;
 }
 
+.form-label {
+    text-align: right;
+}
+
+.form-border {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
 #staff-calendar {
     margin-top: 20px;
+}
+
+#addCalendarEvent-button {
+    text-align: right;
+}
+
+#addCalendarEvent-detailLabel {
+    margin: 5px 0 15px 0;
 }
