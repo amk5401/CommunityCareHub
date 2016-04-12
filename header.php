@@ -3,8 +3,8 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/custom.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/custom.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.print.css" rel="stylesheet" media="print"/>
 
@@ -13,11 +13,11 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">Community Care Hub</a>
+                <a class="navbar-brand" href="http://www.se.rit.edu/~aks5238/software/swen444/CommunityCareHub/">Community Care Hub</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="/caregiverHome.php">Caregiver Home</a></li>
-                <li><a href="/patientProfile.php">Patient Profile</a></li>
+                <li><a href="http://www.se.rit.edu/~aks5238/software/swen444/CommunityCareHub/caregiverHome.php">Caregiver Home</a></li>
+                <li><a href="http://www.se.rit.edu/~aks5238/software/swen444/CommunityCareHub/patientProfile.php">Patient Profile</a></li>
             </ul>
         </div>
     </nav>
