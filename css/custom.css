@@ -20,10 +20,19 @@
     margin-top: 20px;
 }
 
+#personal-calendar{
+    margin-top: 20px;
+    width: 50%;
+}
+
 #addCalendarEvent-button {
     text-align: right;
 }
 
 #addCalendarEvent-detailLabel {
     margin: 5px 0 15px 0;
+}
+
+#addPersonalNote-button{
+    text-align: right;
 }
