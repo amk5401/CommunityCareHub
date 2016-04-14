@@ -35,4 +35,19 @@
 
 #addPersonalNote-button{
     text-align: right;
+/*
+.thumb {
+    background-size: cover;
+    height: 10vw;
+    width: 10vw;
+    padding: 10px;
+}
+
+#patientlist {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.patientlist-row {
+    cursor: pointer;
 }

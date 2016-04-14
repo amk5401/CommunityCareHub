@@ -27,11 +27,34 @@ var app = angular.module('communityCareHubApp', [])
         $scope.patientList = [
             {
                 name: "Carlu Hipkins",
-                gender: "female",
+                gender: "Female",
                 age: 86,
                 room: 116,
-                image: 'carlu.jpg'
+                image: '/assets/images/carlu2.jpeg'
+            },
+            {
+                name: "Somebody Else",
+                gender: "Male",
+                age: 94,
+                room: 117,
+                image: '/assets/images/man.jpg'
             }
         ]
 
     });
+
+$(document).ready(function() {
+    // Lets us link to individual bootstrap tabs by id
+    var url = document.location.toString();
+    if (url.match('#')) {
+        $('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+    // Change hash for page-reload
+    $('.nav-tabs a').on('shown.bs.tab', function (e) {
+        window.location.hash = e.target.hash;
+    });
+
+    $('.patientlist-row').on('click', function() {
+        window.location.href = 'patientProfile.php#General';
+    });
+});
