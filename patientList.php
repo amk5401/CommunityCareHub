@@ -2,12 +2,12 @@
 <div class="container">
     <div id="patientlist" class="col-md-10 col-md-offset-1" ng-repeat="patient in patientList">
         <div class="row patientlist-row">
-            <div class="col-md-2">
+            <div class="col-xs-2">
                 <div class="thumb" style="background-image:url({{patient.image}});" alt={{patient.name}}>
-                    skjdfha dfjalhd fkjahs dlfjkah
+
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-xs-2">
                 <h4>{{patient.name}}</h4>
                 <p>
                     {{patient.gender}}, {{patient.age}} years old
