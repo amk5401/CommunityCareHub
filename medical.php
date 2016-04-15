@@ -1,12 +1,13 @@
 <div class="panel-group col-md-10 col-md-offset-1" id="accordion">
+
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            <div class="panel-heading">
+                <h4 class="panel-title">
                     Prescriptions
-                </a>
-            </h4>
-        </div>
+                </h4>
+            </div>
+        </a>
         <div id="collapse1" class="panel-collapse collapse in">
             <div class="panel-body">
                 <table class="table table-striped">
@@ -48,14 +49,15 @@
             </div>
         </div>
     </div>
+
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            <div class="panel-heading">
+                <h4 class="panel-title">
                     Conditions
-                </a>
-            </h4>
-        </div>
+                </h4>
+            </div>
+        </a>
         <div id="collapse2" class="panel-collapse collapse">
             <div class="panel-body">
                 <table class="table table-striped">
@@ -80,13 +82,13 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            <div class="panel-heading">
+                <h4 class="panel-title">
                     Medical History
-                </a>
-            </h4>
-        </div>
+                </h4>
+            </div>
+        </a>
         <div id="collapse3" class="panel-collapse collapse">
             <div class="panel-body">
                 <img src="../assets/images/graph1.png" alt="Weight Graph" style="width:400px;height:325px;"/>
