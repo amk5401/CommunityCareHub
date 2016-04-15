@@ -22,7 +22,7 @@
                         <div class="col-md-7">
                             <input id="taskName-text" type="text" ng-model="taskName" class="form-control" aria-describedby="event-field">
                         </div>
-                        <label for="taskDescription-text" class="col-md-3 control-label">Task Name</label>
+                        <label for="taskDescription-text" class="col-md-3 control-label">Task Description</label>
                         <div class="col-md-7">
                             <input id="taskDescription-text" type="text" ng-model="taskDescription" class="form-control" aria-describedby="event-field">
                         </div>
