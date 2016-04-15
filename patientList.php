@@ -1,5 +1,4 @@
-<h3>Patient List</h3>
-<div class="container">
+<div class="container patientlist-container">
     <div id="patientlist" class="col-md-10 col-md-offset-1" ng-repeat="patient in patientList">
         <div class="row patientlist-row">
             <div class="col-xs-2">
