@@ -4,7 +4,7 @@
 }
 
 .center-text {
-    text-align: center;
+    text-align: center !important;
 }
 
 .form-label {
@@ -37,11 +37,19 @@
     text-align: right;
 }
 
+#addEditTask-button {
+    text-align: right;
+}
+
+#addCheckupEvent-button {
+    text-align: right;
+}
+
 .thumb {
     background-size: cover;
     height: 10vw;
     width: 10vw;
-    padding: 10px;
+    margin: 10px;
 }
 
 #patientlist {
@@ -51,4 +59,8 @@
 
 .patientlist-row {
     cursor: pointer;
+}
+
+.patientlist-container {
+    margin: 20px;
 }
