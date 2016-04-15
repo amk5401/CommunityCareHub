@@ -52,7 +52,7 @@
     margin: 10px;
 }
 
-#patientlist {
+.bordered {
     border: 1px solid #ddd;
     border-radius: 10px;
 }
@@ -63,4 +63,11 @@
 
 .patientlist-container {
     margin: 20px;
+}
+
+.general-thumb {
+    background-size: cover;
+    height: 13vw;
+    width: 13vw;
+    margin: 10px;
 }
