@@ -81,6 +81,54 @@ var app = angular.module('communityCareHubApp', [])
             }
         ]
 
+        $scope.staffList = [
+            {
+              name: "Dr. Perry Cox",
+              role: "Doctor",
+              status: "active"
+            },
+            {
+              name: "Dr. Christopher Turk",
+              role: "Doctor",
+              status: "active"
+            },
+            {
+              name: "Dr. John Dorian",
+              role: "Doctor",
+              status: "inactive"
+            },
+            {
+              name: "Carla Espinosa",
+              role: "Caretaker",
+              status: "inactive"
+            },
+            {
+              name: "Laverne Roberts",
+              role: "Caretaker",
+              status: "active"
+            }
+        ]
+
+        $scope.notesList = [
+            {
+              date: "15:15 May 25",
+              text: "Bloodwork results show signs of improvement"
+            },
+            {
+              date: "12:30 March 03",
+              text: "Carlu was in great spirits today. Excited for vist."
+            },
+            {
+              date: "14:30 February 22",
+              text: "Had some difficulty breathing on occasion, but nothing severe"
+            },
+            {
+              date: "10:30 January 02",
+              text: "Looking forward to the new year. Resolved to take up painting"
+            },
+        ]
+
+
     });
 
 $(document).ready(function() {
