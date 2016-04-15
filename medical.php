@@ -1,4 +1,4 @@
-<div class="panel-group col-md-10 col-md-offset-1" id="accordion">
+<div class="panel-group col-md-8 col-md-offset-2" id="accordion">
 
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
@@ -20,29 +20,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Insulin</td>
-                            <td>10 Units</td>
-                            <td>10:00am</td>
-                            <td>Daily</td>
-                        </tr>
-                        <tr>
-                            <td>Cymbalta</td>
-                            <td>20mg</td>
-                            <td>10:00am/4:00pm</td>
-                            <td>Twice Daily</td>
-                        </tr>
-                        <tr>
-                            <td>Lipitor</td>
-                            <td>40mg</td>
-                            <td>10:00am</td>
-                            <td>Daily</td>
-                        </tr>
-                        <tr>
-                            <td>Lyrica</td>
-                            <td>100mg</td>
-                            <td>10:00am/2:00pm/6:00pm</td>
-                            <td>Thrice Daily</td>
+                        <tr ng-repeat="p in prescriptionList">
+                            <td>{{p.name}}</td>
+                            <td>{{p.dosage}}</td>
+                            <td>{{p.time}}</td>
+                            <td>{{p.recurrence}}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -68,13 +50,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Bum Knee</td>
-                            <td>Uses a cane to get around. Must keep the leg straight whenever they sit down.</td>
-                        </tr>
-                        <tr>
-                            <td>Allergic to Pollen</td>
-                            <td>Is never ever ever allowed to go outside. The pollen will kill them.</td>
+                        <tr ng-repeat="c in conditionList">
+                            <td>{{c.condition}}</td>
+                            <td>{{c.additionalDetails}}</td>
                         </tr>
                     </tbody>
                 </table>

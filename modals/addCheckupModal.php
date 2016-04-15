@@ -32,7 +32,7 @@
                         </div>
                         <label for="notes-text" class="col-md-3 control-label">Additional Notes</label>
                         <div class="col-md-7">
-                            <input id="notes-text" type="text" ng-model="notes" class="form-control" aria-describedby="event-field">
+                            <textarea id="notes-text" type="text" ng-model="notes" class="form-control" aria-describedby="event-field"></textarea>
                         </div>
                     </div>
                 </form>

@@ -4,7 +4,7 @@
 }
 
 .center-text {
-    text-align: center;
+    text-align: center !important;
 }
 
 .form-label {
@@ -34,6 +34,14 @@
 }
 
 #addPersonalNote-button{
+    text-align: right;
+}
+
+#addEditTask-button {
+    text-align: right;
+}
+
+#addCheckupEvent-button {
     text-align: right;
 }
 

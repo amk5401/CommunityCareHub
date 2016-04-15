@@ -24,6 +24,8 @@ var app = angular.module('communityCareHubApp', [])
             $("#flash").html("").removeClass();
         };
 
+        $('#taskDatepicker').datepicker("update", new Date())
+
         $scope.patientList = [
             {
                 name: "Carlu Hipkins",
@@ -38,6 +40,44 @@ var app = angular.module('communityCareHubApp', [])
                 age: 94,
                 room: 117,
                 image: '/assets/images/man.jpg'
+            }
+        ]
+
+        $scope.prescriptionList = [
+            {
+                name: "Insulin",
+                dosage: "10 Units",
+                time: "10:00am",
+                recurrence: "Daily"
+            },
+            {
+                name: "Cymbalta",
+                dosage: "20mg",
+                time: "10:00am/4:00pm",
+                recurrence: "Twice Daily"
+            },
+            {
+                name: "Lipitor",
+                dosage: "40mg",
+                time: "10:00am",
+                recurrence: "Daily"
+            },
+            {
+                name: "Lyrica",
+                dosage: "100mg",
+                time: "10:00am/2:00pm/6:00pm",
+                recurrence: "Thrice Daily"
+            }
+        ]
+
+        $scope.conditionList = [
+            {
+                condition: "Bum Knee",
+                additionalDetails: "Uses a cane to get around. Must keep the leg straight whenever they sit down."
+            },
+            {
+                condition: "Allergic to Pollen",
+                additionalDetails: "Is never ever ever allowed to go outside. The pollen will kill them."
             }
         ]
 

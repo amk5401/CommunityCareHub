@@ -6,6 +6,7 @@
     <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript" src="js/calendar.js"></script>
     <script type="text/javascript" src="js/personalCalendar.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
 
 </body>
 </html>
