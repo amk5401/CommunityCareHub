@@ -13,11 +13,9 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="http://www.se.rit.edu/~aks5238/software/swen444/CommunityCareHub/">Community Care Hub</a>
-            </div>
             <ul class="nav navbar-nav">
-                <li><a href="http://www.se.rit.edu/~aks5238/software/swen444/CommunityCareHub/caregiverHome.php">Caregiver Home</a></li>
-                <li><a href="http://www.se.rit.edu/~aks5238/software/swen444/CommunityCareHub/patientProfile.php">Patient Profile</a></li>
+                <li><a href="caregiverHome.php">Caregiver Home</a></li>
+                <li><a href="patientProfile.php">Patient Profile</a></li>
             </ul>
         </div>
     </nav>
