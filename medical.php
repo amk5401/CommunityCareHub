@@ -97,3 +97,10 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3" id="addCheckupEvent-button">
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Add Checkup</button>
+    </div>
+</div>
+
+<?php require 'modals/addCheckupModal.php' ?>
