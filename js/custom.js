@@ -41,7 +41,7 @@ var app = angular.module('communityCareHubApp', [])
                 room: 117,
                 image: '/assets/images/man.jpg'
             }
-        ]
+        ];
 
         $scope.prescriptionList = [
             {
@@ -68,7 +68,7 @@ var app = angular.module('communityCareHubApp', [])
                 time: "10:00am/2:00pm/6:00pm",
                 recurrence: "Thrice Daily"
             }
-        ]
+        ];
 
         $scope.conditionList = [
             {
@@ -79,7 +79,7 @@ var app = angular.module('communityCareHubApp', [])
                 condition: "Allergic to Pollen",
                 additionalDetails: "Is never ever ever allowed to go outside. The pollen will kill them."
             }
-        ]
+        ];
 
         $scope.staffList = [
             {
@@ -107,7 +107,7 @@ var app = angular.module('communityCareHubApp', [])
               role: "Caretaker",
               status: "active"
             }
-        ]
+        ];
 
         //caregiver personal notes
         $scope.notesList = [
@@ -127,7 +127,18 @@ var app = angular.module('communityCareHubApp', [])
               date: "10:30 January 02",
               text: "Looking forward to the new year. Resolved to take up painting"
             },
-        ],
+        ]
+
+        $scope.todoList = [
+            {
+                datetime: "3:00 PM",
+                details: "Sponge bath"
+            },
+            {
+                datetime: "6/21",
+                details: "Blood work"
+            }
+        ]
 
         //patient profile notes
         $scope.patientNotes = [
@@ -143,7 +154,7 @@ var app = angular.module('communityCareHubApp', [])
               title: "Hobby",
               text: "Woodworking"
             }
-        ],
+        ]
 
         //emergency contacts
         $scope.emergencyContacts = [
