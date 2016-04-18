@@ -69,8 +69,8 @@
         </a>
         <div id="collapse3" class="panel-collapse collapse">
             <div class="panel-body">
-                <img src="../assets/images/graph1.png" alt="Weight Graph" style="width:400px;height:325px;"/>
-                <img src="../assets/images/graph2.jpg" alt="Height Graph" style="width:400px;height:325px;" />
+                <img src="./assets/images/graph1.png" alt="Weight Graph" style="width:400px;height:325px;"/>
+                <img src="./assets/images/graph2.jpg" alt="Height Graph" style="width:400px;height:325px;" />
             </div>
         </div>
     </div>
