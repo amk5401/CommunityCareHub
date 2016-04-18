@@ -6,7 +6,7 @@
 
 <div class="row">
     <div class="col-md-6 col-md-offset-3" id="addCalendarEvent-button">
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCalendarEvent-modal">Open Modal</button>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCalendarEvent-modal">Add Event</button>
     </div>
 </div>
 
