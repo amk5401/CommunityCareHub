@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+
     <ul class="nav nav-tabs nav-justified">
         <li role="presentation" class="active"><a data-toggle="tab" href="#Medical">Medical</a></li>
         <li role="presentation"><a data-toggle="tab" href="#Personal">Personal</a></li>

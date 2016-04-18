@@ -23,7 +23,7 @@
               <tr ng-repeat="s in staffList">
                   <td>{{s.role}}</td>
                   <td>{{s.name}}</td>
-                  <td>{{s.active}}</td>
+                  <td>{{s.status}}</td>
               </tr>
             </tbody>
           </table>
@@ -69,7 +69,7 @@
       <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
           <div class="panel-heading">
               <h4 class="panel-title">
-
+                  Conditions
               </h4>
           </div>
       </a>
@@ -150,7 +150,8 @@
 
 <!-- Message Button-->
 <div class="row">
-  <div class="col-md-6 col-md-offset-3" id="addCheckupEvent-button">
+  <div class="panel panel-default">
+  <!--<div class="col-md-6 col-md-offset-3" id="addCheckupEvent-button">-->
     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Write Message</button>
   </div>
 </div>
