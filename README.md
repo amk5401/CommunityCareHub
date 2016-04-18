@@ -8,7 +8,7 @@ It is currently hosted at http://www.se.rit.edu/~aks5238/software/swen444/Commun
 
 # Running the application
 
-## OSX and Linux
+### OSX and Linux
 
 ```
     git clone https://github.com/amk5401/CommunityCareHub
@@ -16,9 +16,10 @@ It is currently hosted at http://www.se.rit.edu/~aks5238/software/swen444/Commun
     php -S localhost:8000
 ```
 
-## Windows
+### Windows
 
 If php is installed open a command prompt at the project directory and run:
+
 ```
     php -S localhost:8000
 ```
