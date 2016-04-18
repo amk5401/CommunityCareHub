@@ -1,3 +1,4 @@
+<div class="row">
 <div class="panel-group col-md-8 col-md-offset-2" id="accordion">
 
   <!-- Staff -->
@@ -64,40 +65,39 @@
       </div>
   </div>
 
-  <!-- Conditions -->
-  <div class="panel panel-default">
-      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-          <div class="panel-heading">
-              <h4 class="panel-title">
-                  Conditions
-              </h4>
-          </div>
-      </a>
-      <div id="collapse3" class="panel-collapse collapse">
-          <div class="panel-body">
-              <table class="table table-striped">
-                  <thead>
-                      <tr>
-                          <th>Condition</th>
-                          <th>Additional Details</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr ng-repeat="c in conditionList">
-                          <td>{{c.condition}}</td>
-                          <td>{{c.additionalDetails}}</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-      </div>
-  </div>
-
+<!-- Conditions -->
+    <div class="panel panel-default">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    Conditions
+                </h4>
+            </div>
+        </a>
+        <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Condition</th>
+                            <th>Additional Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="c in conditionList">
+                            <td>{{c.condition}}</td>
+                            <td>{{c.additionalDetails}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
-
+</div>
 <!-- Active Directives and Orders -->
 <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+  <div class="panel-group col-md-8 col-md-offset-2">
     <div class="panel panel-default">
       <div class="panel-heading">
           <h4 class="panel-title">
@@ -127,31 +127,28 @@
 
 <!-- Caretaker Notes -->
 <div class="row">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">Caretaker Notes</h4>
+  <div class="panel-group col-md-8 col-md-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">Caretaker Notes</h4>
+      </div>
+      <table class="table table-condensed">
+        <thead text-align="left">
+          <tr>
+            <th>Date</th>
+            <th>Description</th>
+          <tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="n in notesList">
+              <td>{{n.date}}</td>
+              <td>{{n.text}}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <table class="table table-condensed">
-      <thead text-align="left">
-        <tr>
-          <th>Date</th>
-          <th>Description</th>
-        <tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat="n in notesList">
-            <td>{{n.date}}</td>
-            <td>{{n.text}}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-<!-- Message Button-->
-<div class="row">
-  <div class="panel panel-default">
-  <!--<div class="col-md-6 col-md-offset-3" id="addCheckupEvent-button">-->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Write Message</button>
+    <div id="addCheckupEvent-button">
+      <button id="addCheckupEvent-button" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Write Message</button>
+    </div>
   </div>
 </div>
