@@ -39,6 +39,7 @@
 
 #addEditTask-button {
     text-align: right;
+    margin-top: 5px;
 }
 
 #addCheckupEvent-button {
@@ -65,9 +66,23 @@
     margin: 20px;
 }
 
+#generalinfo {
+    margin: 10px;
+}
+
 .general-thumb {
     background-size: cover;
     height: 13vw;
     width: 13vw;
     margin: 10px;
+}
+
+#todolist {
+    margin: 10px;
+}
+
+.todo-entry {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
