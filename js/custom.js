@@ -109,6 +109,7 @@ var app = angular.module('communityCareHubApp', [])
             }
         ]
 
+        //caregiver personal notes
         $scope.notesList = [
             {
               date: "15:15 May 25",
@@ -126,10 +127,43 @@ var app = angular.module('communityCareHubApp', [])
               date: "10:30 January 02",
               text: "Looking forward to the new year. Resolved to take up painting"
             },
+        ],
+
+        //patient profile notes
+        $scope.patientNotes = [
+            {
+              title:  "Favorite Food:",
+              text: "French Fries"
+            },
+            {
+              title: "Profession",
+              text: "Commercial Pilot"
+            },
+            {
+              title: "Hobby",
+              text: "Woodworking"
+            }
+        ],
+
+        //emergency contacts
+        $scope.emergencyContacts = [
+            {
+              name: "Sunnof Carlu",
+              relation: "son",
+              phone: "585.555.5555",
+              email: "son-of-carlu@gmail.com",
+              powerOfAttorney: "yes"
+            },
+            {
+              name: "Dotter O. Carlu",
+              relation: "daughter",
+              phone: "207.555.5555",
+              email: "daughter-of-carlu@gmail.com",
+              powerOfAttorney: "no"
+            }
         ]
-
-
     });
+
 
 $(document).ready(function() {
     // Lets us link to individual bootstrap tabs by id
