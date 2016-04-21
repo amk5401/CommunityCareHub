@@ -74,7 +74,7 @@
                 </h4>
             </div>
         </a>
-        <div id="collapse3" class="panel-collapse collapse">
+        <div id="collapse3" class="panel-collapse collapse in">
             <div class="panel-body">
                 <table class="table table-striped">
                     <thead>
