@@ -19,6 +19,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="caregiverHome.php">Caregiver Home</a></li>
                 <li><a href="patientProfile.php">Patient Profile</a></li>
+                <li><a href="lovedOnePortal.php">Loved One Portal</a></li>
             </ul>
         </div>
     </nav>
