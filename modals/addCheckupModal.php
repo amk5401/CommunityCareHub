@@ -14,22 +14,32 @@
                         <div class="col-md-7">
                             <input id="height-text" type="text" ng-model="height" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="weight-text" class="col-md-3 control-label">Weight</label>
                         <div class="col-md-7">
                             <input id="weight-text" type="text" ng-model="weight" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="bloodPressure-text" class="col-md-3 control-label">Blood Pressure</label>
                         <div class="col-md-7">
                             <input id="bloodPressure-text" type="text" ng-model="bloodPressure" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="heartRate-text" class="col-md-3 control-label">Heart Rate</label>
                         <div class="col-md-7">
                             <input id="heartRate-text" type="text" ng-model="heartRate" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="temperature-text" class="col-md-3 control-label">Temperature</label>
                         <div class="col-md-7">
                             <input id="temperature-text" type="text" ng-model="temperature" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="notes-text" class="col-md-3 control-label">Additional Notes</label>
                         <div class="col-md-7">
                             <textarea id="notes-text" type="text" ng-model="notes" class="form-control" aria-describedby="event-field"></textarea>
