@@ -14,6 +14,8 @@
                         <div class="col-md-7">
                             <input id="condition-text" type="text" ng-model="condition" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="notes-text" class="col-md-3 control-label">Additional Notes</label>
                         <div class="col-md-7">
                             <textarea id="notes-text" type="text" ng-model="notes" class="form-control" aria-describedby="event-field"></textarea>

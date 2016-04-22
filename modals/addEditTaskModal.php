@@ -14,14 +14,20 @@
                         <div class="col-md-7">
                             <input id="patient-text" type="text" ng-model="patient" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="taskCreator-text" class="col-md-3 control-label">Task Creator</label>
                         <div class="col-md-7">
                             <input id="taskCreator-text" type="text" ng-model="taskCreator" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="taskName-text" class="col-md-3 control-label">Task Name</label>
                         <div class="col-md-7">
                             <input id="taskName-text" type="text" ng-model="taskName" class="form-control" aria-describedby="event-field">
                         </div>
+                    </div>
+                    <div class="form-group">
                         <label for="taskDescription-text" class="col-md-3 control-label">Task Description</label>
                         <div class="col-md-7">
                             <input id="taskDescription-text" type="text" ng-model="taskDescription" class="form-control" aria-describedby="event-field">
