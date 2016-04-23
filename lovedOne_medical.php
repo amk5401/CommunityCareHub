@@ -147,8 +147,5 @@
         </tbody>
       </table>
     </div>
-    <div id="addCheckupEvent-button">
-      <button id="addCheckupEvent-button" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Write Message</button>
-    </div>
   </div>
 </div>
