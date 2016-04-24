@@ -10,6 +10,11 @@
         </a>
         <div id="collapse1" class="panel-collapse collapse in">
             <div class="panel-body">
+                <div class="row">
+                    <div id="addPrescription-button">
+                        <button type="button" id="medicalButton" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addPrescription-modal">Add Prescription</button>
+                    </div>
+                </div>
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -26,11 +31,6 @@
                             <td>{{p.time}}</td>
                             <td>{{p.recurrence}}</td>
                         </tr>
-                        <div class="row">
-   							 <div class="col-md-6 col-md-offset-10" id="addPrescription-button">
-        						<button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addPrescription-modal">Add Prescription</button>
-   							 </div>
-						</div>
                     </tbody>
                 </table>
             </div>
@@ -48,6 +48,11 @@
         </a>
         <div id="collapse2" class="panel-collapse collapse">
             <div class="panel-body">
+                <div class="row">
+                    <div id="addCondition-button">
+                        <button type="button" id="medicalButton" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addCondition-modal">Add Condition</button>
+                    </div>
+                </div>
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -60,12 +65,6 @@
                             <td>{{c.condition}}</td>
                             <td>{{c.additionalDetails}}</td>
                         </tr>
-
-                        <div class="row">
-   							 <div class="col-md-6 col-md-offset-10" id="addCondition-button">
-        						<button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addCondition-modal">Add Condition</button>
-   							 </div>
-						</div>
                     </tbody>
                 </table>
             </div>
@@ -83,15 +82,15 @@
         </a>
         <div id="collapse3" class="panel-collapse collapse">
             <div class="panel-body">
+                <div class="row">
+                    <div id="addCheckupEvent-button">
+                        <button type="button" id="medicalButton" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addCheckupEvent-modal">Add Checkup</button>
+                    </div>
+                </div>
                 <img src="./assets/images/graph1.png" alt="Weight Graph" style="width:400px;height:325px;"/>
                 <img src="./assets/images/graph2.jpg" alt="Height Graph" style="width:400px;height:325px;" />
             </div>
         </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6 col-md-offset-3" id="addCheckupEvent-button">
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Add Checkup</button>
     </div>
 </div>
 

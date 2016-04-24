@@ -46,8 +46,9 @@
     text-align: right;
 }
 
-#addCheckupEvent-button {
-    text-align: right;
+#medicalButton {
+    float:right;
+    margin-right: 10px;
 }
 
 .thumb {
