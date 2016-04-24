@@ -14,7 +14,7 @@
                 <p>
                     Room {{patient.room}}
                 </p>
-                <button type="button" id="patientListButton" class="btn btn-info btn-sm">View Patient</button>
+                <button type="button" id="patientListButton" class="btn btn-primary btn-sm">View Patient</button>
             </div>
         </div>
     </div>

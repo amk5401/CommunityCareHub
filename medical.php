@@ -12,7 +12,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div id="addPrescription-button">
-                        <button type="button" id="medicalButton" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addPrescription-modal">Add Prescription</button>
+                        <button type="button" id="medicalButton" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#addPrescription-modal">Add Prescription</button>
                     </div>
                 </div>
                 <table class="table table-striped">
@@ -50,7 +50,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div id="addCondition-button">
-                        <button type="button" id="medicalButton" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addCondition-modal">Add Condition</button>
+                        <button type="button" id="medicalButton" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#addCondition-modal">Add Condition</button>
                     </div>
                 </div>
                 <table class="table table-striped">
@@ -71,7 +71,7 @@
         </div>
     </div>
     <?php require 'modals/addConditionModal.php' ?>
-    
+
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
             <div class="panel-heading">
@@ -84,7 +84,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div id="addCheckupEvent-button">
-                        <button type="button" id="medicalButton" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addCheckupEvent-modal">Add Checkup</button>
+                        <button type="button" id="medicalButton" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#addCheckupEvent-modal">Add Checkup</button>
                     </div>
                 </div>
                 <img src="./assets/images/graph1.png" alt="Weight Graph" style="width:400px;height:325px;"/>

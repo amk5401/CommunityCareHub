@@ -9,10 +9,10 @@ var app = angular.module('communityCareHubApp', [])
                 if ($scope.username === 'Doctor' && $scope.password === 'abc123') {
                     $window.location.href = '/caregiverHome.php';
                 }
-                if ($scope.username === 'Caregiver' && $scope.password === 'abc123') {
+                else if ($scope.username === 'Caregiver' && $scope.password === 'abc123') {
                     $window.location.href = '/caregiverHome.php';
                 }
-                if ($scope.username === 'Loved One' && $scope.password === 'abc123') {
+                else if ($scope.username === 'Loved One' && $scope.password === 'abc123') {
                     $window.location.href = '/lovedOnePortal.php';
                 }
                 else {
@@ -49,10 +49,6 @@ var app = angular.module('communityCareHubApp', [])
                 $('#patientProfileLink').hide();
             }
         });
-
-        document.getElementById("logoutButton").onclick = function () {
-            location.href = "/index.php";
-        };
 
         $('#taskDatepicker').datepicker("update", new Date())
 

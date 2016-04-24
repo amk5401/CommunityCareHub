@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/datepicker.css" rel="stylesheet" />
+    <link href="css/customnav.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.print.css" rel="stylesheet" media="print"/>
@@ -21,6 +22,8 @@
                 <li id="patientProfileLink"><a href="patientProfile.php">Patient Profile</a></li>
                 <li id="lovedOnePortalLink"><a href="lovedOnePortal.php">Loved One Portal</a></li>
             </ul>
-            <button type="button" id="logoutButton" class="btn btn-sm">Logout</button>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="logoutButton"><a href="/">Logout</a></li>
+            </ul>
         </div>
     </nav>
