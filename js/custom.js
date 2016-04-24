@@ -31,7 +31,7 @@ var app = angular.module('communityCareHubApp', [])
         };
 
         $(document).ready(function () {
-            if (window.location.href.indexOf("index.php") > -1) {
+            if (window.location.href.indexOf("index.php") > -1 || window.location.pathname == '/') {
                 $('#logoutButton').hide();
                 $('#caregiverHomeLink').hide();
                 $('#patientProfileLink').hide();
