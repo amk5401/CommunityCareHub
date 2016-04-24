@@ -26,11 +26,17 @@
                             <td>{{p.time}}</td>
                             <td>{{p.recurrence}}</td>
                         </tr>
+                        <div class="row">
+   							 <div class="col-md-6 col-md-offset-10" id="addPrescription-button">
+        						<button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addPrescription-modal">Add Prescription</button>
+   							 </div>
+						</div>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+    <?php require 'modals/addPrescriptionModal.php' ?>
 
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
@@ -54,11 +60,19 @@
                             <td>{{c.condition}}</td>
                             <td>{{c.additionalDetails}}</td>
                         </tr>
+
+                        <div class="row">
+   							 <div class="col-md-6 col-md-offset-10" id="addCondition-button">
+        						<button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addCondition-modal">Add Condition</button>
+   							 </div>
+						</div>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+    <?php require 'modals/addConditionModal.php' ?>
+    
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
             <div class="panel-heading">

@@ -41,7 +41,7 @@
               </h4>
           </div>
       </a>
-      <div id="collapse1" class="panel-collapse collapse in">
+      <div id="collapse2" class="panel-collapse collapse in">
           <div class="panel-body">
               <table class="table table-striped">
                   <thead>
@@ -74,7 +74,7 @@
                 </h4>
             </div>
         </a>
-        <div id="collapse3" class="panel-collapse collapse">
+        <div id="collapse3" class="panel-collapse collapse in">
             <div class="panel-body">
                 <table class="table table-striped">
                     <thead>
@@ -146,9 +146,6 @@
           </tr>
         </tbody>
       </table>
-    </div>
-    <div id="addCheckupEvent-button">
-      <button id="addCheckupEvent-button" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addCheckupEvent-modal">Write Message</button>
     </div>
   </div>
 </div>

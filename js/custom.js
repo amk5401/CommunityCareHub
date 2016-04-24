@@ -35,7 +35,7 @@ var app = angular.module('communityCareHubApp', [])
                 image: '/assets/images/carlu2.jpeg'
             },
             {
-                name: "Somebody Else",
+                name: "Carlo Hopkins",
                 gender: "Male",
                 age: 94,
                 room: 117,

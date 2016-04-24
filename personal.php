@@ -18,16 +18,20 @@
                     Personal Notes
                 </h4>
             </div>
-             <table class="table table-striped">
+              <table class="table table-condensed">
+                <thead text-align="left">
+                  <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                  <tr>
+                </thead>
                 <tbody>
-                    <tr>
-                        <td>Sample Text</td>
-                    </tr>
-                    <tr>
-                        <td>Sample Text 2</td>
-                    </tr>
+                  <tr ng-repeat="n in notesList">
+                      <td>{{n.date}}</td>
+                      <td>{{n.text}}</td>
+                  </tr>
                 </tbody>
-             </table>
+              </table>
         </div>
     </div>
 </div>
@@ -40,4 +44,3 @@
 
 <?php require 'modals/addCalendarModal.php' ?>
 <?php require 'modals/addPersonalNote.php' ?>
-
