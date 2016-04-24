@@ -3,6 +3,11 @@
     top: 25%;
 }
 
+#logoutButton {
+    float: right;
+    margin-top: 10px;
+}
+
 .center-text {
     text-align: center !important;
 }

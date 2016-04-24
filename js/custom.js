@@ -5,9 +5,15 @@ var app = angular.module('communityCareHubApp', [])
             $scope.clearFlash();
             $("#login-button").prop("disabled", true);
             // wait a little to give the impression of it loading
-            setTimeout(function() {
+            setTimeout(function () {
+                if ($scope.username === 'Doctor' && $scope.password === 'abc123') {
+                    $window.location.href = '/caregiverHome.php';
+                }
                 if ($scope.username === 'Caregiver' && $scope.password === 'abc123') {
                     $window.location.href = '/caregiverHome.php';
+                }
+                if ($scope.username === 'Loved One' && $scope.password === 'abc123') {
+                    $window.location.href = '/lovedOnePortal.php';
                 }
                 else {
                     $scope.flash("Incorrect username or password", "danger");
@@ -22,6 +28,30 @@ var app = angular.module('communityCareHubApp', [])
 
         $scope.clearFlash = function() {
             $("#flash").html("").removeClass();
+        };
+
+        $(document).ready(function () {
+            if (window.location.href.indexOf("index.php") > -1) {
+                $('#logoutButton').hide();
+                $('#caregiverHomeLink').hide();
+                $('#patientProfileLink').hide();
+                $('#lovedOnePortalLink').hide();
+            }
+            if (window.location.href.indexOf("caregiverHome.php") > -1) {
+                $('#patientProfileLink').hide();
+                $('#lovedOnePortalLink').hide();
+            }
+            if (window.location.href.indexOf("patientProfile.php") > -1) {
+                $('#lovedOnePortalLink').hide();
+            }
+            if (window.location.href.indexOf("lovedOnePortal.php") > -1) {
+                $('#caregiverHomeLink').hide();
+                $('#patientProfileLink').hide();
+            }
+        });
+
+        document.getElementById("logoutButton").onclick = function () {
+            location.href = "/index.php";
         };
 
         $('#taskDatepicker').datepicker("update", new Date())

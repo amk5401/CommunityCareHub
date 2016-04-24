@@ -14,10 +14,13 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
+                <a class="navbar-brand">Community Care Hub</a>
+            </div>
             <ul class="nav navbar-nav">
-                <li><a href="caregiverHome.php">Caregiver Home</a></li>
-                <li><a href="patientProfile.php">Patient Profile</a></li>
-                <li><a href="lovedOnePortal.php">Loved One Portal</a></li>
+                <li id="caregiverHomeLink"><a href="caregiverHome.php">Caregiver Home</a></li>
+                <li id="patientProfileLink"><a href="patientProfile.php">Patient Profile</a></li>
+                <li id="lovedOnePortalLink"><a href="lovedOnePortal.php">Loved One Portal</a></li>
             </ul>
+            <button type="button" id="logoutButton" class="btn btn-sm">Logout</button>
         </div>
     </nav>
