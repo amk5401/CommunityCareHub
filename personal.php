@@ -6,7 +6,7 @@
 
 <div class="row">
     <div class="col-md-6 col-md-offset-3" id="addCalendarEvent-button">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addCalendarEvent-modal">Add Event</button>
+        <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addCalendarEvent-modal">Add Event</button>
     </div>
 </div>
 
@@ -38,7 +38,7 @@
 
 <div class="row">
     <div class="col-md-6 col-md-offset-3" id="addPersonalNote-button">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addPersonalNote-modal">Add Note</button>
+        <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addPersonalNote-modal">Add Note</button>
     </div>
 </div>
 
