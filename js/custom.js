@@ -1,4 +1,21 @@
 ﻿"use strict";
+
+$(document).ready(function() {
+    // Lets us link to individual bootstrap tabs by id
+    var url = document.location.toString();
+    if (url.match('#')) {
+        $('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+    // Change hash for page-reload
+    $('.nav-tabs a').on('shown.bs.tab', function (e) {
+        window.location.hash = e.target.hash;
+    });
+
+    $('.patientlist-row').on('click', function() {
+        window.location.href = 'patientProfile.php#General';
+    });
+});
+
 var app = angular.module('communityCareHubApp', [])
     .controller('communityCareHubController', function ($scope, $window) {
         $scope.submitLogin = function () {
@@ -51,6 +68,18 @@ var app = angular.module('communityCareHubApp', [])
         });
 
         $('#taskDatepicker').datepicker("update", new Date())
+
+        $scope.pre = {};
+        $scope.newPrescription = function() {
+            $scope.prescriptionList.push({
+                name: $scope.pre.name,
+                dosage: $scope.pre.dosage,
+                time: $scope.pre.time,
+                recurrence: $scope.pre.recurrence
+            });
+            $scope.pre = {};
+            $('.modal').modal('hide');
+        };
 
         $scope.patientList = [
             {
@@ -200,20 +229,3 @@ var app = angular.module('communityCareHubApp', [])
             }
         ]
     });
-
-
-$(document).ready(function() {
-    // Lets us link to individual bootstrap tabs by id
-    var url = document.location.toString();
-    if (url.match('#')) {
-        $('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
-    }
-    // Change hash for page-reload
-    $('.nav-tabs a').on('shown.bs.tab', function (e) {
-        window.location.hash = e.target.hash;
-    });
-
-    $('.patientlist-row').on('click', function() {
-        window.location.href = 'patientProfile.php#General';
-    });
-});
