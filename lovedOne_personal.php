@@ -89,3 +89,5 @@
     </div>
   </div>
 </div>
+
+<?php include 'modals/addCalendarModal.php' ?>

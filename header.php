@@ -12,7 +12,7 @@
 
 </head>
 <body ng-app="communityCareHubApp" ng-controller="communityCareHubController">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand">Community Care Hub</a>
@@ -27,3 +27,4 @@
             </ul>
         </div>
     </nav>
+    <div id="content">
