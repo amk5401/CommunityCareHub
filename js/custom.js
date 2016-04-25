@@ -101,6 +101,16 @@ var app = angular.module('communityCareHubApp', [])
             $('.modal').modal('hide');
         };
 
+        $scope.note = {};
+        $scope.newPersonalNote = function() {
+            $scope.notesList.push({
+                date: '15:30 May 1',
+                text: $scope.note.note
+            });
+            $scope.note = {};
+            $('.modal').modal('hide');
+        };
+
         $scope.patientList = [
             {
                 name: "Carlu Hipkins",
