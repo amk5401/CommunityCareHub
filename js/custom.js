@@ -81,6 +81,16 @@ var app = angular.module('communityCareHubApp', [])
             $('.modal').modal('hide');
         };
 
+        $scope.condition = {};
+        $scope.newCondition = function() {
+            $scope.conditionList.push({
+                condition: $scope.condition.condition,
+                additionalDetails: $scope.condition.notes
+            });
+            $scope.condition = {};
+            $('.modal').modal('hide');
+        };
+
         $scope.patientList = [
             {
                 name: "Carlu Hipkins",

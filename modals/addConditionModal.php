@@ -7,27 +7,26 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">Condition</h4>
             </div>
-            <div class="modal-body">
-                <form ng-submit="newCheckup()" class="form-horizontal">
+            <form ng-submit="newCondition()" class="form-horizontal">
+                <div class="modal-body">
                     <div class="form-group">
                         <label for="condition-text" class="col-md-3 control-label">Condition</label>
                         <div class="col-md-7">
-                            <input id="condition-text" type="text" ng-model="condition" class="form-control" aria-describedby="event-field">
+                            <input id="condition-text" type="text" ng-model="condition.condition" class="form-control" aria-describedby="event-field">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="notes-text" class="col-md-3 control-label">Additional Notes</label>
                         <div class="col-md-7">
-                            <textarea id="notes-text" type="text" ng-model="notes" class="form-control" aria-describedby="event-field"></textarea>
+                            <textarea id="notes-text" type="text" ng-model="condition.notes" class="form-control" aria-describedby="event-field"></textarea>
                         </div>
                     </div>
-                </form>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <input type="submit" value="Save" class="btn btn-primary"></input>
+                    </div>
                 </div>
-            </div>
-
+            </form>
         </div>
     </div>
 </div>
