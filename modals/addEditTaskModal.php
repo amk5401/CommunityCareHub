@@ -7,41 +7,23 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">Add or Edit Task</h4>
             </div>
-            <div class="modal-body">
-                <form ng-submit="newTaskEvent()" class="form-horizontal">
-                    <div class="form-group">
-                        <label for="patient-text" class="col-md-3 control-label">Patient</label>
-                        <div class="col-md-7">
-                            <input id="patient-text" type="text" ng-model="patient" class="form-control" aria-describedby="event-field">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="taskCreator-text" class="col-md-3 control-label">Task Creator</label>
-                        <div class="col-md-7">
-                            <input id="taskCreator-text" type="text" ng-model="taskCreator" class="form-control" aria-describedby="event-field">
-                        </div>
-                    </div>
+            <form ng-submit="newTaskEvent()" class="form-horizontal">
+                <div class="modal-body">
                     <div class="form-group">
                         <label for="taskName-text" class="col-md-3 control-label">Task Name</label>
                         <div class="col-md-7">
-                            <input id="taskName-text" type="text" ng-model="taskName" class="form-control" aria-describedby="event-field">
+                            <input id="taskName-text" type="text" ng-model="task.taskName" class="form-control" aria-describedby="event-field">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="taskDescription-text" class="col-md-3 control-label">Task Description</label>
                         <div class="col-md-7">
-                            <input id="taskDescription-text" type="text" ng-model="taskDescription" class="form-control" aria-describedby="event-field">
+                            <input id="taskDescription-text" type="text" ng-model="task.taskDescription" class="form-control" aria-describedby="event-field">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="event-date" class="col-md-3 control-label">Date</label>
-                        <div id="taskDatepicker" class="col-md-7" data-date-format="dd-mm-yyyy"></div>
-                        <!--
-                        <div class="input-append date" id="taskDatepicker" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
-                            <input class="span2" id="event-date" size="16" type="text" value="12-02-2012">
-                            <span class="add-on"><i class="icon-th"></i></span>
-                        </div>
-                        -->
+                        <div id="taskDatepicker" class="col-md-7" ng-model="task.date" data-date-format="dd-mm-yyyy"></div>
                     </div>
                     <div class="form-group">
                         <label for="hourTime-text" class="col-md-3 control-label">Time</label>
@@ -59,12 +41,12 @@
                             </select>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Add Task</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <input type="submit" value="Add Task" class="btn btn-primary"></input>
+                </div>
+            </form>
         </div>
     </div>
 </div>

@@ -91,6 +91,16 @@ var app = angular.module('communityCareHubApp', [])
             $('.modal').modal('hide');
         };
 
+        $scope.task = {};
+        $scope.newTaskEvent = function() {
+            $scope.todoList.push({
+                datetime: '9/6',//$scope.task.date, // this ended up being really hard
+                details: $scope.task.taskName
+            })
+            $scope.task = {};
+            $('.modal').modal('hide');
+        };
+
         $scope.patientList = [
             {
                 name: "Carlu Hipkins",
