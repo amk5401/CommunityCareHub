@@ -25,6 +25,5 @@ $(document).on('ready', function() {
     });
 
     $("#addCalendarEvent-modal").on('hide.bs.modal', function () {
-        console.log('add calendar event modal is closing.');
     });
 })
