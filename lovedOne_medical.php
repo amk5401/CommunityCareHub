@@ -125,12 +125,12 @@
   </div>
 </div>
 
-<!-- Caretaker Notes -->
+<!-- Caregiver Notes -->
 <div class="row">
   <div class="panel-group col-md-8 col-md-offset-2">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h4 class="panel-title">Caretaker Notes</h4>
+        <h4 class="panel-title">Caregiver Notes</h4>
       </div>
       <table class="table table-condensed">
         <thead text-align="left">
