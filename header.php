@@ -22,6 +22,11 @@
                 <li id="patientProfileLink"><a href="patientProfile.php">Patient Profile</a></li>
                 <li id="lovedOnePortalLink"><a href="lovedOnePortal.php">Loved One Portal</a></li>
             </ul>
+            <ul class="nav navbar-nav navbar-help">
+                <div class="help-tip" id="helpLink">
+                    <p id="helpText">Community Care Hub is a web app to help caregivers, doctors, and loved ones stay up to date with elderly individual's care.</p>
+                </div>
+            </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li id="logoutButton"><a href="/">Logout</a></li>
             </ul>
