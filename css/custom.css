@@ -118,6 +118,12 @@ body {
 #todolist {
     margin: 10px;
 }
+.urgent{
+	color: red;
+}
+.warning{
+	color: orange;
+}
 
 .todo-entry {
     text-align: center;
