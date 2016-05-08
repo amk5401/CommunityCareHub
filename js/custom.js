@@ -78,7 +78,9 @@ var app = angular.module('communityCareHubApp', [])
             $scope.prescriptionList.push({
                 name: $scope.pre.name,
                 dosage: $scope.pre.dosage,
-                time: $scope.pre.time,
+                hour: $scope.pre.hour,
+                min: $scope.pre.min,
+                ampm: $scope.pre.ampm,
                 recurrence: $scope.pre.recurrence
             });
             $scope.pre = {};
@@ -136,25 +138,33 @@ var app = angular.module('communityCareHubApp', [])
             {
                 name: "Insulin",
                 dosage: "10 Units",
-                time: "10:00am",
+                hour: "10",
+                min: "00",
+                ampm: "am",
                 recurrence: "Daily"
             },
             {
                 name: "Cymbalta",
                 dosage: "20mg",
-                time: "10:00am/4:00pm",
+                hour: "6",
+                min: "30",
+                ampm: "pm",
                 recurrence: "Twice Daily"
             },
             {
                 name: "Lipitor",
                 dosage: "40mg",
-                time: "10:00am",
+                hour: "8",
+                min: "00",
+                ampm: "am",
                 recurrence: "Daily"
             },
             {
                 name: "Lyrica",
                 dosage: "100mg",
-                time: "10:00am/2:00pm/6:00pm",
+                hour: "9",
+                min: "00",
+                ampm: "pm",
                 recurrence: "Thrice Daily"
             }
         ];

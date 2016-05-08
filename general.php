@@ -28,7 +28,7 @@
     <div class="col-md-8 col-md-offset-2">
         <div class="row">
             <div class="col-md-12">
-                <h3>Upcoming Events</h3>
+                <h3>Upcoming Tasks</h3>
             </div>
         </div>
         <div class="row bordered">
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div id="addEditTask-button">
-            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addEditTask-modal">Add/Edit Task</button>
+            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addEditTask-modal">Add Task</button>
         </div>
     </div>
 </div>

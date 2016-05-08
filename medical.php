@@ -27,7 +27,7 @@
                         <tr ng-repeat="p in prescriptionList">
                             <td>{{p.name}}</td>
                             <td>{{p.dosage}}</td>
-                            <td>{{p.time}}</td>
+                            <td>{{p.hour}}:{{p.min}}{{p.ampm}}</td>
                             <td>{{p.recurrence}}</td>
                         </tr>
                     </tbody>
