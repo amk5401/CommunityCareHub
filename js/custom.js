@@ -58,7 +58,7 @@ var app = angular.module('communityCareHubApp', [])
             if (window.location.href.indexOf("caregiverHome.php") > -1) {
                 $('#patientProfileLink').hide();
                 $('#lovedOnePortalLink').hide();
-                $("#helpText").text("This the home page for a Caregiver or a Doctor. Here users are able to view a list of current patients as well as see an overall calendar of events and tasks for all relevant patients.");
+                $("#helpText").text("This is the home page for a Caregiver or a Doctor. Here users are able to view a list of current patients as well as see an overall calendar of events and tasks for all relevant patients.");
             }
             if (window.location.href.indexOf("patientProfile.php") > -1) {
                 $('#lovedOnePortalLink').hide();
