@@ -1,5 +1,4 @@
 <div class="panel-group col-md-8 col-md-offset-2" id="accordion">
-
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
             <div class="panel-heading">

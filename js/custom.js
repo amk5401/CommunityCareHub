@@ -50,6 +50,7 @@ var app = angular.module('communityCareHubApp', [])
         $(document).ready(function () {
             if (window.location.href.indexOf("index.php") > -1 || window.location.pathname == '/') {
                 $('#logoutButton').hide();
+                $('#helpLink').css({'right': '5px'});
                 $('#caregiverHomeLink').hide();
                 $('#patientProfileLink').hide();
                 $('#lovedOnePortalLink').hide();
@@ -57,13 +58,16 @@ var app = angular.module('communityCareHubApp', [])
             if (window.location.href.indexOf("caregiverHome.php") > -1) {
                 $('#patientProfileLink').hide();
                 $('#lovedOnePortalLink').hide();
+                $("#helpText").text("This the home page for a Caregiver or a Doctor. Here users are able to view a list of current patients as well as see an overall calendar of events and tasks for all relevant patients.");
             }
             if (window.location.href.indexOf("patientProfile.php") > -1) {
                 $('#lovedOnePortalLink').hide();
+                $("#helpText").text("This is a patient's profile. The medical page allows for viewing and editing of the medical data. The general page has basic info about the patient and the persoanl page keeps track of upcoming events and tasks.");
             }
             if (window.location.href.indexOf("lovedOnePortal.php") > -1) {
                 $('#caregiverHomeLink').hide();
                 $('#patientProfileLink').hide();
+                $("#helpText").text("This is the loved one portal. The medical page can be used to see the patient's medical status and the personal page shows upcoming events and other personal information.");
             }
         });
 
