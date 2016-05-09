@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 $(document).ready(function() {
     // Lets us link to individual bootstrap tabs by id
@@ -212,9 +212,13 @@ var app = angular.module('communityCareHubApp', [])
               date: "10:30 January 02",
               text: "Looking forward to the new year. Resolved to take up painting"
             },
-        ]
+        ];
 
         $scope.todoList = [
+            { 
+                datetime: "10:00 AM",
+                details: "Administer 10 units of insulin"
+            },
             {
                 datetime: "3:00 PM",
                 details: "Sponge bath"
@@ -223,7 +227,7 @@ var app = angular.module('communityCareHubApp', [])
                 datetime: "6/21",
                 details: "Blood work"
             }
-        ]
+        ];
 
         //patient profile notes
         $scope.patientNotes = [
