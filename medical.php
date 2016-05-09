@@ -1,5 +1,4 @@
 <div class="panel-group col-md-8 col-md-offset-2" id="accordion">
-
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
             <div class="panel-heading">
@@ -28,7 +27,7 @@
                         <tr ng-repeat="p in prescriptionList">
                             <td>{{p.name}}</td>
                             <td>{{p.dosage}}</td>
-                            <td>{{p.time}}</td>
+                            <td>{{p.hour}}:{{p.min}}{{p.ampm}}</td>
                             <td>{{p.recurrence}}</td>
                         </tr>
                     </tbody>

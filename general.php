@@ -12,13 +12,17 @@
 
                 </div>
             </div>
-            <div class="col-xs-3">
+            <div class="col-xs-4">
                 <h4>Carlu Hipkins</h4>
                 <p>
                     Female, 86 years old<br />
                     Height: 6'6"<br />
                     Weight: 180 lbs
                 </p>
+                <h4> Latest Vitals</h4>
+                    <div class="urgent">Temperature: 101.2 F</div>
+                    <div class="warning"> Blood Pressure: 160/90 mmHg</div>
+                    <div>Heart Rate: 80 BPM</div>
             </div>
         </div>
     </div>
@@ -28,7 +32,7 @@
     <div class="col-md-8 col-md-offset-2">
         <div class="row">
             <div class="col-md-12">
-                <h3>Upcoming Events</h3>
+                <h3>Upcoming Tasks</h3>
             </div>
         </div>
         <div class="row bordered">
@@ -49,7 +53,7 @@
             </div>
         </div>
         <div id="addEditTask-button">
-            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addEditTask-modal">Add/Edit Task</button>
+            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addEditTask-modal">Add Task</button>
         </div>
     </div>
 </div>
