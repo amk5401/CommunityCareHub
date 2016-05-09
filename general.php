@@ -19,10 +19,12 @@
                     Height: 6'6"<br />
                     Weight: 180 lbs
                 </p>
+            </div>
+            <div class="col-xs-4">
                 <h4> Latest Vitals</h4>
-                    <div class="urgent">Temperature: 101.2 F</div>
-                    <div class="warning"> Blood Pressure: 160/90 mmHg</div>
-                    <div>Heart Rate: 80 BPM</div>
+                <div class="urgent">Temperature: 101.2 F</div>
+                <div class="warning"> Blood Pressure: 160/90 mmHg</div>
+                <div>Heart Rate: 80 BPM</div>
             </div>
         </div>
     </div>
