@@ -6,6 +6,17 @@ This site was a project for the RIT class SWEN-444, Human Centered Reqs and Desi
 
 It is currently hosted at https://community-care-hub.herokuapp.com/.
 
+The acceptable credentials are:
+    
+    Username: Doctor
+    Password: abc123
+    
+    Username: Caregiver
+    Password: abc123
+    
+    Username: Loved One
+    Password: abc123
+
 # Running the application
 
 ### OSX and Linux
