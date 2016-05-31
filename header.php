@@ -24,7 +24,17 @@
             </ul>
             <ul class="nav navbar-nav navbar-help">
                 <div class="help-tip" id="helpLink">
-                    <p id="helpText">Community Care Hub is a web app to help caregivers, doctors, and loved ones stay up to date with elderly individual's care.</p>
+                    <p id="helptext">
+                        Community Care Hub is a web app to help caregivers, doctors, and loved ones stay up to date with elderly individual's care.
+                        <br /><br />
+                        Try logging in as a Caregiver or a Loved One!
+                        <br /><br />
+                        Username: Caregiver<br />
+                        Password: abc123
+                        <br /><br />
+                        Username: Loved One<br />
+                        Password: abc123
+                    </p>
                 </div>
             </ul>
             <ul class="nav navbar-nav navbar-right">
