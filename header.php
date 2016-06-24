@@ -24,7 +24,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-help">
                 <div class="help-tip" id="helpLink">
-                    <p id="helptext">
+                    <p id="helpText">
                         Community Care Hub is a web app to help caregivers, doctors, and loved ones stay up to date with elderly individual's care.
                         <br /><br />
                         Try logging in as a Caregiver or a Loved One!
